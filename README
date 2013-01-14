@@ -1,0 +1,21 @@
+TILT SENSOR:
+- Java 
+
+DESCRIPTION:
+- A tilt sensor used during the 2012 University Rover Challenge's winning rover team YURT (York university Team)
+- Part of a HUD Graphical user interface for the driver 
+- Only meant to demonstrate the workings of the tiltsensor, the dependencies are there for testing and simulation. (the tilt sensor is the final version but the other two files are not)
+- I coded this during first year university, at the time I was unable to find any coded examples of TiltSensors, so take from this what you will, but dont judge the style / lack of comments. I've grown.  
+
+COMPONENTS:
+TiltSensor4.java - Draws the tilt sensor on top of the GUIComponent: @Author Maciej Lis
+GUIComponent.java - Main Frame, used as a "houseing" for all widgets, and main window for rover driver: @Author Dennis Liu
+UpdateFunction.java - Updates each Widget with new information from Rover: @Author Dennis Liu 
+
+DEPENDANCIES 
+java jdk
+
+USE:
+$ javac TiltSensor4.java
+$ java TiltSensor4
+
