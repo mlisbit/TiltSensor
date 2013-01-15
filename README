@@ -18,4 +18,3 @@ java jdk
 USE:
 $ javac TiltSensor4.java
 $ java TiltSensor4
-
